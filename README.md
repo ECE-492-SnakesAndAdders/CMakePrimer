@@ -1,7 +1,7 @@
 # CMake Primer
 
 ## What does CMake do?
-Used to manage the build process of a project. 
+It manages the build process of a project. 
 
 ### What's a build process?
 A build process involves taking your source code, which is written in a high level language like C or C++ and transforming it into an executable program or library that can be run by the machine
