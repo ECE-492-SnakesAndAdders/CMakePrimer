@@ -17,8 +17,8 @@ Our CMakeLists.txt has these 3 lines:
 
 ~~~
   cmake_minimum_required(VERSION 3.20.0)
-  project(Hello) -> **naming our project**
-  add_executable(Hello_cmake hello.cpp) -> **here, Hello is the name of our executable that will be generated and hello.cpp is the source file**
+  project(Hello) -> naming our project
+  add_executable(Hello_cmake hello.cpp) -> here, Hello is the name of our executable that will be generated and hello.cpp is the source file
 ~~~
 
-### Those are the basics. The CMake docs should be able to help you figure out your specific needs
+### Those are the basics. The [CMake docs](https://cmake.org/cmake/help/latest/guide/tutorial/index.html) should be able to help you figure out your specific needs
