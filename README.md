@@ -15,8 +15,10 @@ This file contains instructions on how to build the project, such as which sourc
 
 Our CMakeLists.txt has these 3 lines:
 
+~~~
   cmake_minimum_required(VERSION 3.20.0)
   project(Hello) -> **naming our project**
   add_executable(Hello_cmake hello.cpp) -> **here, Hello is the name of our executable that will be generated and hello.cpp is the source file**
+~~~
 
 ### Those are the basics. The CMake docs should be able to help you figure out your specific needs
